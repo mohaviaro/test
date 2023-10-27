@@ -1,3 +1,6 @@
 git ls-files
 mkdir -p level1/leve2/level3/level5
 rm -rf
+git add . 
+git reset Head <file>
+git checkout -- <file>
