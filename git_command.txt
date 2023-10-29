@@ -4,3 +4,5 @@ rm -rf
 git add . 
 git reset Head <file>
 git checkout -- <file>
+git restore <file>
+git mv leve3-file.txt level3.txt
