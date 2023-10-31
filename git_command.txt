@@ -6,3 +6,28 @@ git reset Head <file>
 git checkout -- <file>
 git restore <file>
 git mv leve3-file.txt level3.txt
+git ada -A
+mv level3.txt ..
+git help log
+git log
+git log --abbrev-commit
+git log --oneline --graph --decorate
+git log --since="3 days ago"
+git log 4h4hg44..rheerr  #to specify range
+git log --follow -- level3.txt
+git show 3bcca3c
+git config --global alias.hist "log --all --oneline --graph --decorate" 
+nano ~/.gitconfig 
+nano .gitignore
+*.log
+log/
+git diff
+git difftool
+git diff HEAD
+git difftool HEAD
+git diff --staged HEAD
+git difftool -- README.md 
+git log --oneline 
+git difftool 3bcca3c HEAD 
+git difftool HEAD HEAD^     #head -1 commit
+git difftool a63f875 2d301f4
