@@ -31,3 +31,10 @@ git log --oneline
 git difftool 3bcca3c HEAD 
 git difftool HEAD HEAD^     #head -1 commit
 git difftool a63f875 2d301f4
+git branch -a   #list existing branches
+git branch mynewbranch 
+git checkout mynewbranch
+git branch -m mynewbranch newbranch
+git branch -d newbranch
+git checkout -b mohavia
+
