@@ -37,4 +37,7 @@ git checkout mynewbranch
 git branch -m mynewbranch newbranch
 git branch -d newbranch
 git checkout -b mohavia
-
+git checkout main
+git merge mohavia
+git merge mohavia --no-ff
+git merge mohavia -m 'auto merge'
