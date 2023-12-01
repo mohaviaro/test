@@ -41,3 +41,5 @@ git checkout main
 git merge mohavia
 git merge mohavia --no-ff
 git merge mohavia -m 'auto merge'
+git merge mohavia #conflit
+git mergetool
