@@ -49,5 +49,5 @@ git rebase main
 git rebase --abort  #in case of conflict to abort
 git mergetool # to fix rebase conflict
 git pull --rebase origin main
-
+git stash
 
