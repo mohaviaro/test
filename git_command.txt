@@ -50,4 +50,26 @@ git rebase --abort  #in case of conflict to abort
 git mergetool # to fix rebase conflict
 git pull --rebase origin main
 git stash
+git stash list
+git drop stash
+git log --oneline --decorate --graph --all
+git tag --list 
+git tag -a mohavia
+git show mohavia
+git commit --ammend
+git tag mohavia2 -m 'release mohavia'
+git difftool mohavia mohavia2
+git tag -a mohavia3 fbab28d
+git tag -a mohavia3 -f    #to edit tag
+git push main --tags
+git push origin :mohavia3  #remove tag from the repo
+git reflog
+git reset 0422d33
+git branch -a #list all branches
+git status
+git diff mohavia2 mohavia
+git branch -d mohavia   #delete branch
+git branch -D mohavia   #force delete branch
+git ls-files #shows all files on track
 
+git revert
